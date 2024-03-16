@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,iniial-scale=1.0">
+  <title>Medidor de engajamento Griot MKT</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <div class="cabecalho" id="cabecalho">
+       <h1>Medidor de engajamento do instagram</h1>
+    </div> 
+  </header>
+  <main>
+    <div class="caixa"  id="caixa">
+      <img src="assets/Artboard 4 (1).png" alt="logo" id="logo">
+      <h3>Insira as informações de um post e te informamos como ele está de engajamento.</h3>
+        <div class="caixa-input" id="caixa-input"> 
+          <form><h4>Informe abaixo o número de:</h4> </form>
+          <form><h4>Curtidas:</h4> </form>
+          <input type="text" id="curtidas" name="curtidas" />
+          <form><h4>Comentários:</h4> </form>
+          <input type="text" id="comentarios" name="comentarios" />
+          <form><h4>Compartilhamentos:</h4> </form>
+          <input type="text" id="compartilhamentos" name="compartilhamentos"/>
+          <form><h4>Salvamentos:</h4> </form>
+          <input type="text" id="salvos" name="salvos"/>
+          <form><h4>Por último, quantos seguidores tem seu perfil?</h4> </form>
+          <input type="text" id="seguidores" name="seguidores"/>
+          <br><br> 
+          <button class="btn" id="medir" onclick="Calcular_engajamento()">Medir</button>
+        </div>
+            <br><br>
+        <div id="container-resposta"  class="container-resposta">
+            <span class="title"><h4>O engajamento deste post está :</h4></span>         
+            <span id="resposta"class="resposta"> </span>
+         </div>            
+    </div>
+  </main>
+  <footer>
+    <h3>Desenvolvido por:  Filipe Souza</h3>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
