@@ -20,6 +20,7 @@ html {
 }
 
 body{
+ 
   height: 50vh;
   width: 150vh;
   background-image: url("/assets/BG_destaquesArtboard-1.png") ;
@@ -32,9 +33,9 @@ body{
   font-size: 16px;
   text-align: center;
   margin-top: 2%;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-bottom: 10%;
+  margin-right: 2%;
+  margin-left: 30%;
+  margin-bottom: 2%;
   padding: 20px;
 }
 
@@ -125,8 +126,8 @@ h3{
 }
 
 #logo{
-  height: 30vh;
-  widht: 70vh;
+  height: 50vh;
+  widht: 80vh;
 }
 
 #curtidas{
@@ -209,3 +210,32 @@ h3{
    outline:none;
 }
 
+
+.social-media{
+  margin-top: 2%;
+  color: #9e194b;
+  font-family: 'Serif', Georgia;
+  border: 5px #0e0b0b outset;
+  border-left: 100%;
+  border-right: 100%;
+  background-color: #dbb8b8;
+  -webkit-box-shadow: 10px 10px 10px 2px rgba(0,0,0,1);
+  -moz-box-shadow: 10px 10px 10px 2px rgba(0,0,0,1);
+  box-shadow: 10px 10px 10px 2px rgba(0,0,0,1);
+  border-radius: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#linkedin{
+  margin-left: 10px;
+  margin-bottom: 6px;}
+
+#facebook{
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+#instagram{
+  margin-bottom: 7px;
+}
