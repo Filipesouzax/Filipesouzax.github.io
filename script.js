@@ -23,3 +23,11 @@ function Calcular_engajamento(){
 
   document.getElementById("resposta").innerHTML += " " ;
 }
+
+function limparInputs() {
+    document.getElementById("curtidas").value = "";
+    document.getElementById("comentarios").value = "";
+    document.getElementById("compartilhamentos").value = "";
+    document.getElementById("salvos").value = "";
+    document.getElementById("seguidores").value = "";
+}
