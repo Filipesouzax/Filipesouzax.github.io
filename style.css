@@ -1,10 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
 html {
   height: 50vh;
-  width: 50%;
+  width: auto;
 }
 
 .cabecalho{
-  margin-top: 2%;
+  
   color: #9e194b;
   font-family: 'Serif', Georgia;
   border: 5px #0e0b0b outset;
@@ -17,25 +23,26 @@ html {
   border-radius: 100px;
   margin-left: 20%;
   margin-right: 20%;
+  margin-top: 10%;
 }
 
 body{
- 
+  overflow:scroll;
   height: 50vh;
   width: 150vh;
   background-image: url("/assets/BG_destaquesArtboard-1.png") ;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  background-color: #f63f0b;
+  background-color: #956b5f;
   font-family: 'Serif', Georgia;
   font-size: 16px;
   text-align: center;
-  margin-top: 2%;
+  margin-top: 0%;
   margin-right: 2%;
-  margin-left: 30%;
-  margin-bottom: 2%;
+  margin-left: 15%;
+  margin-bottom: 0%;
   padding: 20px;
 }
 
@@ -66,7 +73,7 @@ h3{
 }
 
 .caixa-input{
-  jusify-content: center;
+  justify-content: center;
   background-attachment: fixed;
   margin:0%;
   margin-top: 1%;
@@ -103,6 +110,8 @@ h3{
   color: #0c0c0d;
   border: solid 2px #13161a;
  }
+
+ 
 
 .container-resposta{
   background-attachment: fixed;
@@ -229,13 +238,21 @@ h3{
 
 #linkedin{
   margin-left: 10px;
-  margin-bottom: 6px;}
+  margin-bottom: 6px;
+  text-decoration: none;
+}  
 
 #facebook{
   margin-left: 10px;
   margin-bottom: 5px;
+  text-decoration: none;
 }
 
 #instagram{
   margin-bottom: 7px;
+  text-decoration: none;
+}
+
+.rodape{
+  margin-bottom:20%;
 }
