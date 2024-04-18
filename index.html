@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Medidor de engajamento Griot MKT</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <div class="cabecalho" id="cabecalho">
+       <h1>Medidor de engajamento do Instagram</h1>
+    </div> 
+  </header>
+  <main>
+    <div class="caixa"  id="caixa">
+      <a href="#" target="_blank">
+        <img src="assets/Artboard 4 (1).png" alt="logo" id="logo">
+      </a>  
+      <h3>Insira as informações de um post e te informamos como ele está de engajamento.</h3>
+        <div class="caixa-input" id="caixa-input"> 
+          <form><h4>Informe abaixo o número de:</h4> </form>
+          <form><h4>Curtidas:</h4> </form>
+          <input type="text" id="curtidas" name="curtidas" />
+          <form><h4>Comentários:</h4> </form>
+          <input type="text" id="comentarios" name="comentarios" />
+          <form><h4>Compartilhamentos:</h4> </form>
+          <input type="text" id="compartilhamentos" name="compartilhamentos"/>
+          <form><h4>Salvamentos:</h4> </form>
+          <input type="text" id="salvos" name="salvos"/>
+          <form><h4>Por último, quantos seguidores tem seu perfil?</h4> </form>
+          <input type="text" id="seguidores" name="seguidores"/>
+          <br><br> 
+          <button class="btn" id="medir" onclick="Calcular_engajamento()">Medir  </button>
+          <button class="btn" id="limpar" onclick="limparInputs()">Limpar</button>
+        </div>
+            <br><br>
+        <div id="container-resposta"  class="container-resposta">
+            <span class="title"><h4>O engajamento deste post está :</h4></span>         
+            <span id="resposta"class="resposta"> </span>
+         </div>            
+    </div>
+  </main>
+  <footer>
+    <div class="social-media" id="social-media">
+      <h3>Siga-nos nas redes sociais</h3>
+      <a href="https://www.instagram.com/griotmktmusical?igsh=MXJ2cGkwbTh2cGZ4" target="_blank">
+        <img src="assets/instagram.png" alt="instagram " id="instagram"  style="height: 50px; height: 50px;">
+      </a>  
+      <a href="https://www.facebook.com/griotmktmusical/" target="_blank">
+        <img src="assets/facebook.png" alt="facebook" id="facebook"  style="height: 55px; height: 55px;">
+      </a>
+      <a href="https://www.linkedin.com/company/griotmktmusical" target="_blank">
+        <img src="assets/linkedin.png" alt="linkedin" id="linkedin"  style="height: 50px; height: 50px;"> 
+      </a>
+      </button>
+      </div>
+    </div>
+    <div class="rodape" id="rodape">
+      <h3>Desenvolvido por: <a href="https://github.com/Filipesouzax" target="_blank">Filipe Souza</h3>
+     </div> 
+  </footer>
+  <script src="jscript/script.js"></script>
+</body>
+
+</html>
